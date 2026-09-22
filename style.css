@@ -1,16 +1,14 @@
 body {
-    font-family: 'Roboto'; sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
-    padding-left: 50px;
-    padding-right: 50px;
 }
+
 
 
 header,
 .first,
 footer {
     background-color: #1F2937 ;
-    width: 100%;
     color: #F9FAF8;
 }
 
@@ -22,6 +20,7 @@ footer {
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     text-align: center;
     padding: 16px;
 }
@@ -38,6 +37,18 @@ ul{
 
 .plain:visited {
     color: #F9FAF8;
+}
+
+.first {
+    display: flex;    
+}
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.placeholder {
+    flex-grow: 1;
 }
 
 .subtitle-one {
